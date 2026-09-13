@@ -12,26 +12,29 @@
 $max-page-width: 1300px;
 
 /*  _colors - bahmniTheme:  */
-$bahmniPrimaryColor: #00463f;
-$bahmniSecondaryColor: #669999;
-$bahmniTertiaryColor: #457FAC;
+$bahmniPrimaryColor: #2B8AE7;
+$bahmniSecondaryColor: #3772AC;
+$bahmniTertiaryColor: #14847C;
 
 $bahmniLinkColor: #2b95ff;
 
-$bahmniPrimaryBtnColor: #a1d030;
-$bahmniPrimaryBtnColorHover: #88af28;
+$bahmniPrimaryBtnColor: #2B8AE7;
+$bahmniPrimaryBtnColorHover: #70B8FF;
 
-$bahmniSectionHeaderColor: #66b298;
+$bahmniSectionHeaderColor: #3772AC;
 
 /*  _different shades of grey/gray:  */
 $gray800: #444;
 $gray700: #333;
-$gray600: #666; /* any text will not be lighter than this */
+$gray600: #666;
+/* any text will not be lighter than this */
 $gray500: #BBB;
 $gray450: #c6c6c6;
-$gray400: #ccc; /* any border will not be lighter than this */
+$gray400: #ccc;
+/* any border will not be lighter than this */
 $gray300: #ddd;
-$gray200: #eee; /* any background will not be lighter than this */
+$gray200: #eee;
+/* any background will not be lighter than this */
 $gray100: #f3f3f3;
 $gray50: #f1f1f1;
 $bahmniTableHeaderBg: #f1f1f1;
@@ -47,7 +50,7 @@ $bodyBackground: #EEE;
 
 $white: #FFF;
 $black: #000;
-$red:#f00;
+$red: #f00;
 
 //openMrs colors
 $highlight: darken(#009384, 15%);
@@ -58,7 +61,7 @@ $subtlerText: $gray500;
 $link: #007FFF;
 $focus: #FFFDF7;
 
-$success: #A1D030;
+$success: #22DDD0;
 $alert: #FFA000;
 $error: #ff6666;
 $successBackground: #ddffdd;
@@ -66,16 +69,16 @@ $successBackground: #ddffdd;
 $bahmniTextColor: #363463;
 
 /*  _spacing padding - margin:  */
-$smallestSpacing: 5px;
-$defaultSpacing: 10px;
-$mediumSpacing: 15px;
+$smallestSpacing: 4px;
+$defaultSpacing: 12px;
+$mediumSpacing: 16px;
 $largeSpacing: 20px;
 
 /* _fonts */
 
-$primaryFont: "OpenSans";
-$primaryLightFont: "OpenSansLight";
-$primaryItalicFont: "OpenSansItalic";
+$primaryFont: "Nunito";
+$primaryLightFont: "NunitoLight";
+$primaryItalicFont: "NunitoItalic";
 
-$primaryBoldFont: "OpenSansBold";
-$primarySemiBoldFont: "OpenSansSemiBold";
+$primaryBoldFont: "NunitoBold";
+$primarySemiBoldFont: "NunitoSemiBold";

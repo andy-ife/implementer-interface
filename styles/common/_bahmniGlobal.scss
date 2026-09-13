@@ -30,7 +30,9 @@ a {
   height: 52px;
 }
 
-.header, .breadcrumb-inner, .container-content {
+.header,
+.breadcrumb-inner,
+.container-content {
   @include clearfix();
   max-width: $max-page-width;
   margin: 0 auto;
@@ -44,9 +46,10 @@ a {
   border: 1px solid $bahmniSecondaryColor;
   border-radius: 5px 5px 0 0;
   background: $white;
+
   .section-content {
     padding: 10px 0;
-    width:99%;
+    width: 99%;
   }
 }
 
@@ -62,17 +65,21 @@ h2.header-title {
 .nav {
   float: left;
   width: auto;
+
   ul {
     li {
       padding: 0 20px 0 0;
       display: inline-block;
+
       a {
         color: $white;
         font-weight: 400;
       }
+
       &:hover {
         opacity: 0.75;
       }
+
       &.active {
         opacity: 0.75;
         font-family: $primaryBoldFont san-serif;
@@ -81,12 +88,19 @@ h2.header-title {
   }
 }
 
-.button, button, input[type="button"], input[type="reset"], a.button {
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+a.button {
   @include button;
 }
 
 .btn {
-  &--highlight, input[type="submit"], button[type="submit"] {
+
+  &--highlight,
+  input[type="submit"],
+  button[type="submit"] {
     background: linear-gradient(to bottom, $bahmniPrimaryBtnColor, $bahmniPrimaryBtnColorHover) $bahmniPrimaryBtnColorHover;
     border: 1px solid $bahmniPrimaryBtnColorHover;
     color: $white;
@@ -94,6 +108,7 @@ h2.header-title {
     font-family: $primarySemiBoldFont;
     border-radius: 2px;
   }
+
   &--close {
     padding: 5px;
     font-size: 12px;
@@ -133,9 +148,11 @@ input[type="checkbox"] {
     @media screen and (max-height: 742px) {
       max-height: 500px;
     }
+
     @media screen and (max-height: 642px) {
       max-height: 472px;
     }
+
     @media screen and (max-height: 482px) {
       max-height: 310px;
     }
@@ -162,9 +179,11 @@ input[type="checkbox"] {
   border: 1px solid $bahmniSecondaryColor;
   border-radius: 5px 5px 0 0;
   @include box-shadow-for-section;
+
   &.published {
     opacity: 0.8;
     cursor: not-allowed;
+
     .container-columns {
       pointer-events: none;
     }
@@ -178,15 +197,17 @@ input[type="checkbox"] {
   margin: 0 0 10px;
 }
 
-ul li a.back-btn, a.back-btn {
+ul li a.back-btn,
+a.back-btn {
   padding: 4px 10px 5px 10px;
   /* stylelint-disable */
-  border: 1px solid #476b6b;
-  background: linear-gradient(to bottom, $bahmniSecondaryColor, #527a7a);
+  border: 1px solid #254d74;
+  background: linear-gradient(to bottom, $bahmniSecondaryColor, #2b5a87);
   /* stylelint-enable */
 }
 
-ul li a.back-btn i, a.back-btn i {
+ul li a.back-btn i,
+a.back-btn i {
   font-size: 30px;
   line-height: 1;
   margin: 0;
@@ -232,10 +253,12 @@ a.back-btn:hover {
   display: table;
   width: auto;
   margin: 0 auto;
+
   .fa-info-circle {
     font-size: 28px;
     padding: 0 5px;
   }
+
   .info-message {
     display: table;
     float: left;

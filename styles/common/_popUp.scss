@@ -36,12 +36,15 @@
   border-radius: 5px 5px 0 0;
   z-index: 1001;
   max-width: 100%;
+
   &--container {
     padding: 10px 20px;
   }
+
   &--title {
     margin-bottom: 10px;
   }
+
   .button-wrapper {
     padding: 10px 0;
     margin: 0 10px 0 0;
@@ -87,10 +90,13 @@
 
 .form-event-popup {
   &-content {
-    width: 90vw !important; /* stylelint-disable-line declaration-no-important */
-    padding: 0 !important; /* stylelint-disable-line declaration-no-important */
+    width: 90vw;
+    /* stylelint-disable-line declaration-no-important */
+    padding: 0;
+    /* stylelint-disable-line declaration-no-important */
     border-radius: 5px 5px 0;
-    border: 1px solid #666 !important; /* stylelint-disable-line declaration-no-important */
+    border: 1px solid #666;
+    /* stylelint-disable-line declaration-no-important */
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
 }
@@ -101,12 +107,12 @@
   font-size: 13px;
 
   .label {
-      font-family: "OpenSansBold", Arial, sans-serif;
-      font-size: 18px;
-      font-weight: bolder;
-    }
-
+    font-family: "OpenSansBold", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
   }
+
+}
 
 .form-conditions-modal-container {
   height: 80vh;
@@ -143,15 +149,18 @@
       height: 155px;
     }
   }
+
   .button-wrapper {
     background: #f7f7f7;
     padding: 10px;
     text-align: right;
     border-top: 1px solid #dddddd;
   }
+
   .label {
     font-family: "OpenSansBold", Arial, sans-serif
   }
+
   .obs-dropdown {
     float: right;
   }
@@ -161,7 +170,7 @@
   padding-left: 10px;
 
   .fa-file-code-o {
-    color: #669999;
+    color: #3772AC;
     cursor: pointer;
     margin-right: 10px;
   }
@@ -204,8 +213,9 @@
       cursor: pointer;
       margin-right: 10px;
     }
-    .fa-file-code-o{
-      color: #669999;
+
+    .fa-file-code-o {
+      color: #3772AC;
       cursor: pointer;
       margin-right: 10px;
     }
@@ -213,7 +223,8 @@
 }
 
 .CodeMirror-lint-tooltip {
-  z-index: 1002 !important; /* stylelint-disable-line declaration-no-important */
+  z-index: 1002;
+  /* stylelint-disable-line declaration-no-important */
 }
 
 .line-break-1 {
@@ -232,34 +243,38 @@
 }
 
 .disable-image-and-video-upload {
-    .image-upload {
-      cursor: not-allowed;
-      width: fit-content;
-      height: 100%;
-      &:hover:after {
-        content: "Preview of image upload is not supported";
-        display: inline-block;
-        font-size: 12px;
-        padding: 5px;
-        border-radius: 5px;
-        background: #000;
-        color: #FFF;
-        position: absolute;
-        top: 83%;
-        left: 33%;
-      }
-      .placeholder{
-        pointer-events: none;
-      }
-      .fa-cloud-upload{
-        opacity: 0.5;
-      }
+  .image-upload {
+    cursor: not-allowed;
+    width: fit-content;
+    height: 100%;
+
+    &:hover:after {
+      content: "Preview of image upload is not supported";
+      display: inline-block;
+      font-size: 12px;
+      padding: 5px;
+      border-radius: 5px;
+      background: #000;
+      color: #FFF;
+      position: absolute;
+      top: 83%;
+      left: 33%;
     }
+
+    .placeholder {
+      pointer-events: none;
+    }
+
+    .fa-cloud-upload {
+      opacity: 0.5;
+    }
+  }
 
   .video-upload {
     cursor: not-allowed;
     width: fit-content;
     height: 100%;
+
     &:hover:after {
       content: "Preview of video upload is not supported";
       display: inline-block;
@@ -272,11 +287,13 @@
       top: 9%;
       left: 33%;
     }
+
     .video-placeholder {
       pointer-events: none;
       opacity: 0.5;
     }
   }
+
   .table-controls {
     .video-upload {
       &:hover:after {
@@ -284,6 +301,7 @@
         left: 47%;
       }
     }
+
     .image-upload {
       &:hover:after {
         top: 83%;
