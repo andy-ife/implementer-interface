@@ -107,7 +107,7 @@
   font-size: 13px;
 
   .label {
-    font-family: "NunitoBold", Arial, sans-serif;
+    font-family: $primaryBoldFont;
     font-size: 18px;
     font-weight: bolder;
   }
@@ -158,7 +158,7 @@
   }
 
   .label {
-    font-family: "NunitoBold", Arial, sans-serif
+    font-family: $primaryBoldFont
   }
 
   .obs-dropdown {
@@ -170,7 +170,7 @@
   padding-left: 10px;
 
   .fa-file-code-o {
-    color: #3772AC;
+    color: $bahmniSecondaryColor;
     cursor: pointer;
     margin-right: 10px;
   }
@@ -180,7 +180,7 @@
   }
 
   .label-key {
-    font-family: "NunitoBold", Arial, sans-serif;
+    font-family: $primaryBoldFont;
 
     &:after {
       content: ":";
@@ -215,7 +215,7 @@
     }
 
     .fa-file-code-o {
-      color: #3772AC;
+      color: $bahmniSecondaryColor;
       cursor: pointer;
       margin-right: 10px;
     }

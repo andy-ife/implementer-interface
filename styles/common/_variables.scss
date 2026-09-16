@@ -14,7 +14,7 @@ $max-page-width: 1300px;
 /*  _colors - bahmniTheme:  */
 $bahmniPrimaryColor: #2B8AE7;
 $bahmniSecondaryColor: #3772AC;
-$bahmniTertiaryColor: #14847C;
+$bahmniTertiaryColor: #70B8FF;
 
 $bahmniLinkColor: #2b95ff;
 
@@ -61,7 +61,9 @@ $subtlerText: $gray500;
 $link: #007FFF;
 $focus: #FFFDF7;
 
-$success: #22DDD0;
+$success: #22DDD0; // buttons colors. Should look good with primary & secondary colors
+$successLow: #1BB1A6;
+$successLowest: #14847C;
 $alert: #FFA000;
 $error: #ff6666;
 $successBackground: #ddffdd;
@@ -75,10 +77,8 @@ $mediumSpacing: 16px;
 $largeSpacing: 20px;
 
 /* _fonts */
-
-$primaryFont: "Nunito";
-$primaryLightFont: "NunitoLight";
-$primaryItalicFont: "NunitoItalic";
-
-$primaryBoldFont: "NunitoBold";
-$primarySemiBoldFont: "NunitoSemiBold";
+$primaryFont: "Nunito", Arial, sans-serif;
+$primaryLightFont: "NunitoLight", Arial, sans-serif;
+$primaryItalicFont: "NunitoItalic", Arial, sans-serif;
+$primaryBoldFont: "NunitoBold", Arial, sans-serif;
+$primarySemiBoldFont: "NunitoSemiBold", Arial, sans-serif;
